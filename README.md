@@ -10,7 +10,7 @@ The National Law Center on Homelessness & Poverty (https://www.nlchp.org/) is a 
 
 ### The Map 
 
-![Map](nlchp-mapping-project/SampleMapLabeled.png)
+![Map](https://github.com/mattymecks/nlchp-mapping-project/blob/master/SampleMapLabeled.png)
     
 
 
