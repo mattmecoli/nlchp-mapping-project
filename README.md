@@ -36,4 +36,4 @@ At the time of this writing, I'm a data science student at the Flatiron School i
 
 ### License
 
-Everything here is licensed under the MIT license. 
+Everything here is licensed under the Apache 2.0 license. 
