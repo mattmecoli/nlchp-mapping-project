@@ -7,7 +7,7 @@ Map of cities with active anti-panhandling statutes/ordinances for campaign by t
 ### The Project:
 
 The National Law Center on Homelessness & Poverty (https://www.nlchp.org/) is a national nonprofit legal group dedicated to preventing homelessness and poverty. This project was undertaken for a national campaign against anti-panhandling laws spearheaded by the NLCHP in coordination with a couple dozen other regional and national nonprofits. The map built here is meant to be a clear resource for press and policymakers to track the progress of the campaign. 
-<br>
+<br><br>
 The most recent version of the map is available on the NLCHP's website at https://nlchp.org/images/panhandling_cities. 
 
 ### The Map 
@@ -19,7 +19,7 @@ The most recent version of the map is available on the NLCHP's website at https:
 ### The Juypter notebook
 
 The code in the EDA notebook imports the data into a dataframe using pandas, explores the data a bit, cleans up a few issues with geo-coding, manipulates the data to make it easier to update, and persists the changes. The Mapping notebook handles preparing the data to be mapped and then mapping the cities onto a geoscatter plot utilizing Plotly. At the end of the notebook, you'll see two options for plotting. One plots in Juypter. This make it extremely easy to visualize the changes you're making as you make them. The other plots in html (and generates an html file). 
-<br>
+<br><br>
 A quick note on some of the mapping code. I was having trouble getting a text box to appear correctly in the map, so I converted all of my colors from rgb ro rgba, which allows you to set the 'opacity' of a color. I then created a 'phantom' trace with only one completely transparent point on the map itself and added the 'subplot' text found in the "Note" section as the label for that trace so that it appeared nicely in line with the rest of the legend.  
 
 
